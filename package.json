@@ -10,10 +10,17 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
   },
-  "keywords": ["Chess, Tutorial"],
+  "keywords": [
+    "Chess, Tutorial"
+  ],
   "author": "Arjun, Mack, Jordan, and Ben.",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.7.4"
   }
 }
