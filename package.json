@@ -10,10 +10,15 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
   },
-  "keywords": ["Chess, Tutorial"],
+  "keywords": [
+    "Chess, Tutorial"
+  ],
   "author": "Arjun, Mack, Jordan, and Ben.",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "react-multi-carousel": "^2.8.2"
   }
 }
