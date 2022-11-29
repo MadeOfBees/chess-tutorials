@@ -38,9 +38,6 @@ function App() {
       <Router>
         <div>
             <Nav />
-            <h1>
-              It's alive
-            </h1>
             <Routes>
               <Route
                 path="/"

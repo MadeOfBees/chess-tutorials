@@ -1,0 +1,13 @@
+.titleScreen{
+    text-align: center;
+}
+
+.hueyLewis{
+    border: 3px solid black;
+}
+
+.hipToBeRectangle{
+    border: 3px solid black;
+    height: 15rem;
+    width: 12rem;
+}
