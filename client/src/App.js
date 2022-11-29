@@ -11,7 +11,9 @@ import "bootstrap/dist/css/bootstrap.css";
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import Nav from './components/Navbar';
+import Navi from './components/Navbar';
+import Footer from './components/Footer';
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -36,23 +38,26 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
+        <main className="alex">
+        <Navi />
         <div>
-            <Nav />
-            <Routes>
-              <Route
-                path="/"
-                element={<Home />}
-              />
-              <Route
-                path="/login"
-                element={<Login />}
-              />
-              <Route
-                path="/signup"
-                element={<Signup />}
-              />
-            </Routes>
+          <Routes>
+            <Route
+              path="/"
+              element={<Home />}
+            />
+            <Route
+              path="/login"
+              element={<Login />}
+            />
+            <Route
+              path="/signup"
+              element={<Signup />}
+            />
+          </Routes>
         </div>
+        </main>
+        <Footer className="geddy" />
       </Router>
     </ApolloProvider>
   );

@@ -11,3 +11,22 @@
     height: 15rem;
     width: 12rem;
 }
+
+.alex{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 56rem; 
+  }
+
+.geddy{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.neil{
+    background-color: rgba(202, 204, 216, 0.26);
+    overflow-x: hidden;
+}
+

@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function appNav() {
+function AppNav() {
     function showLoggin() {
         if (Auth.loggedIn()) {
             return (
@@ -34,7 +34,7 @@ function appNav() {
         }
     }
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row">
             <nav>
                 <Navbar variant="dark" bg="dark" expand="lg">
                     <Container fluid>
@@ -170,4 +170,4 @@ function appNav() {
     );
 }
 
-export default appNav;
+export default AppNav;
