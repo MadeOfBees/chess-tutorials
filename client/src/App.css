@@ -11,3 +11,32 @@
     height: 15rem;
     width: 12rem;
 }
+
+.alex{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 56rem; 
+  }
+
+.geddy{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.neil{
+    background-color: rgba(202, 204, 216, 0.26);
+    overflow-x: hidden;
+}
+.allWork{
+    background-color: rgba(192, 192, 192, 0.521);
+}
+.noPlay{
+    background-color: rgb(58, 58, 58);
+}
+.boardSpace{
+    height: 7vh;
+    width: 4vh;
+}
+
