@@ -127,7 +127,7 @@ function AppNav() {
                                     menuVariant="dark"
                                 >
                                     <Dropdown.Item>
-                                        Puzzle 1
+                                    <Link to="/Puzzle1">Puzzle1</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
                                         Puzzle 2

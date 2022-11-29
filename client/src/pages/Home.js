@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import "../App.css";
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.

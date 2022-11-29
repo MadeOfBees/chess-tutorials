@@ -13,6 +13,8 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Navi from './components/Navbar';
 import Footer from './components/Footer';
+import Puzzle1 from "./pages/Puzzles/Puzzle1";
+import "./App.css";
 
 
 const httpLink = createHttpLink({
@@ -53,6 +55,10 @@ function App() {
             <Route
               path="/signup"
               element={<Signup />}
+            />
+            <Route
+              path="/Puzzle1"
+              element={<Puzzle1 />}
             />
           </Routes>
         </div>
