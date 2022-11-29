@@ -49,37 +49,37 @@ function AppNav() {
                                     menuVariant="dark"
                                 >
                                     <Dropdown.Item>
-                                        Lesson 1
+                                        <Link to="/Basic1">Basic1</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 2
+                                        <Link to="/Basic2">Basic2</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 3
+                                        <Link to="/Basic3">Basic3</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 4
+                                        <Link to="/Basic4">Basic4</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 5
+                                        <Link to="/Basic5">Basic5</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 6
+                                        <Link to="/Basic6">Basic6</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 7
+                                        <Link to="/Basic7">Basic7</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 8
+                                        <Link to="/Basic8">Basic8</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 9
+                                        <Link to="/Basic9">Basic9</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 10
+                                        <Link to="/Basic10">Basic10</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 11
+                                        <Link to="/Basic11">Basic11</Link>
                                     </Dropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown
@@ -88,37 +88,37 @@ function AppNav() {
                                     menuVariant="dark"
                                 >
                                     <Dropdown.Item>
-                                        Lesson 1
+                                        <Link to="/Advanced1">Advanced1</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 2
+                                        <Link to="/Advanced2">Advanced2</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 3
+                                        <Link to="/Advanced3">Advanced3</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 4
+                                        <Link to="/Advanced4">Advanced4</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 5
+                                        <Link to="/Advanced5">Advanced5</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 6
+                                        <Link to="/Advanced6">Advanced6</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 7
+                                        <Link to="/Advanced7">Advanced7</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 8
+                                        <Link to="/Advanced8">Advanced8</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 9
+                                        <Link to="/Advanced9">Advanced9</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 10
+                                        <Link to="/Advanced10">Advanced10</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Lesson 11
+                                        <Link to="/Advanced11">Advanced11</Link>
                                     </Dropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown
@@ -127,37 +127,37 @@ function AppNav() {
                                     menuVariant="dark"
                                 >
                                     <Dropdown.Item>
-                                    <Link to="/Puzzle1">Puzzle1</Link>
+                                        <Link to="/Puzzle1">Puzzle1</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 2
+                                        <Link to="/Puzzle2">Puzzle2</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 3
+                                        <Link to="/Puzzle3">Puzzle3</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 4
+                                        <Link to="/Puzzle4">Puzzle4</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 5
+                                        <Link to="/Puzzle5">Puzzle5</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 6
+                                        <Link to="/Puzzle6">Puzzle6</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 7
+                                        <Link to="/Puzzle7">Puzzle7</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 8
+                                        <Link to="/Puzzle8">Puzzle8</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 9
+                                        <Link to="/Puzzle9">Puzzle9</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 10
+                                        <Link to="/Puzzle10">Puzzle10</Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item>
-                                        Puzzle 11
+                                        <Link to="/Puzzle11">Puzzle11</Link>
                                     </Dropdown.Item>
                                 </NavDropdown>
                                 {showLoggin()}

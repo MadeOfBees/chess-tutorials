@@ -7,7 +7,7 @@ import Comments from "../../components/Comments";
 const Puzzle = () => {
     return (
         <div>
-            <h1>Puzzle 1:</h1>
+            <h1>Puzzle 10:</h1>
             <Row>
                 <Col xs={1} />
                 <Col xs={4}><Chessboard /></Col>
