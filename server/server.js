@@ -19,10 +19,11 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//Creates new instance of an Apollo sever with the GraphQL schema
 const startApolloServer = async (typeDefs, resolvers) => {
   await server.start();
   server.applyMiddleware({app});
-
+//connects the database
   db.once("open", () => {
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
@@ -30,6 +31,8 @@ const startApolloServer = async (typeDefs, resolvers) => {
     })
   })
 };
+
+startApolloServer(typeDefs, resolvers);
 
 // // if we're in production, serve client/build as static assets
 // if (process.env.NODE_ENV === 'production') {
