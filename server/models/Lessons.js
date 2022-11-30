@@ -15,7 +15,14 @@ const lessonSchema = new Schema ({
         lessondescription: {
             type: String,
             // required: true,
-        }
+        },
+
+        
+            lessonId: {
+                type: String,
+            }
+            
+        
     
 })
 
