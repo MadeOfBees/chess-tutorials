@@ -4,13 +4,104 @@
         
     },
     {
-        "lessontitle": "Puzzle3"
+        "lessontitle": "Puzzle1"
     }, 
     {
         "lessondescription": "Please follow this first puzzle lesson"
     },
     {
-        "lessonId": "Basic1"
+        "lessonId": "1"
+    },
+    {
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        
+    },
+    {
+        "lessontitle": "Puzzle2"
+    }, 
+    {
+        "lessondescription": "Please follow this second puzzle lesson"
+    },
+    {
+        "lessonId": "2"
+    },
+    {
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        
+    },
+    {
+        "lessontitle": "Puzzle3"
+    }, 
+    {
+        "lessondescription": "Please follow this third puzzle lesson"
+    },
+    {
+        "lessonId": "3"
+    },
+    {
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        
+    },
+    {
+        "lessontitle": "Puzzle4"
+    }, 
+    {
+        "lessondescription": "Please follow this fourth puzzle lesson"
+    },
+    {
+        "lessonId": "4"
+    },
+    {
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        
+    },
+    {
+        "lessontitle": "Puzzle5"
+    }, 
+    {
+        "lessondescription": "Please follow this fifth puzzle lesson"
+    },
+    {
+        "lessonId": "5"
+    },
+    {
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        
+    },
+    {
+        "lessontitle": "Puzzle6"
+    }, 
+    {
+        "lessondescription": "Please follow this sixth puzzle lesson"
+    },
+    {
+        "lessonId": "6"
+    },
+    {
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        
+    },
+    {
+        "lessontitle": "Puzzle7"
+    }, 
+    {
+        "lessondescription": "Please follow this seventh puzzle lesson"
+    },
+    {
+        "lessonId": "7"
+    },
+    {
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+        
+    },
+    {
+        "lessontitle": "Puzzle8"
+    }, 
+    {
+        "lessondescription": "Please follow this eighth puzzle lesson"
+    },
+    {
+        "lessonId": "8"
     }
    
 ]

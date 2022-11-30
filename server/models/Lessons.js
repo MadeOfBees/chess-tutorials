@@ -19,7 +19,7 @@ const lessonSchema = new Schema ({
 
         
             lessonId: {
-                type: String,
+                type: Number,
             }
             
         
