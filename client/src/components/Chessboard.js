@@ -13,12 +13,10 @@ function onMovePiece(piece, fromSquare, toSquare) {
 }
 
 function Chessboard(currentPosition) {
-    // DEMO, PLEASE DELETE LATER
-    const samplePosition =  'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
-    // DEMO, PLEASE DELETE LATER
+    const pos = currentPosition.samplePosition;
     return (
         <div>
-            <Chessdiagram flip={flip} fen={samplePosition} squareSize={squareSize}
+            <Chessdiagram flip={flip} fen={pos} squareSize={squareSize}
                 lightSquareColor={lightSquareColor} darkSquareColor={darkSquareColor} onMovePiece={onMovePiece} />
         </div>
     );
