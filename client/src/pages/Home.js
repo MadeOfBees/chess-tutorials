@@ -1,3 +1,4 @@
+
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
@@ -68,7 +69,11 @@ const Home = () => {
         </Carousel>
       </div>
     </Container>
+  
+  
   );
+
 };
+
 
 export default Home;

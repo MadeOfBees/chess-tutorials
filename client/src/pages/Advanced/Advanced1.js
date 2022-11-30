@@ -4,6 +4,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Comments from "../../components/Comments";
 
+
+import { useQuery } from '@apollo/client';
+
+import ThoughtList from '../components/ThoughtList';
+import ThoughtForm from '../components/ThoughtForm';
+
+import { QUERY_THOUGHTS } from '../utils/queries';
+
+
 const Puzzle = () => {
     return (
         <div>
