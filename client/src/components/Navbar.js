@@ -48,117 +48,51 @@ function AppNav() {
                                     title="The Basics"
                                     menuVariant="dark"
                                 >
-                                    <Dropdown.Item>
-                                        <Link to="/Basic1">Basic1</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic2">Basic2</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic3">Basic3</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic4">Basic4</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic5">Basic5</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic6">Basic6</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic7">Basic7</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic8">Basic8</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic9">Basic9</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic10">Basic10</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Basic11">Basic11</Link>
-                                    </Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic1">Basic1</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic2">Basic2</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic3">Basic3</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic4">Basic4</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic5">Basic5</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic6">Basic6</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic7">Basic7</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic8">Basic8</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic9">Basic9</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic10">Basic10</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Basic11">Basic11</Dropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown
                                     id="nav-dropdown-dark-example"
                                     title="Advanced"
                                     menuVariant="dark"
                                 >
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced1">Advanced1</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced2">Advanced2</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced3">Advanced3</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced4">Advanced4</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced5">Advanced5</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced6">Advanced6</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced7">Advanced7</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced8">Advanced8</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced9">Advanced9</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced10">Advanced10</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Advanced11">Advanced11</Link>
-                                    </Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced1">Advanced1</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced2">Advanced2</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced3">Advanced3</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced4">Advanced4</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced5">Advanced5</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced6">Advanced6</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced7">Advanced7</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced8">Advanced8</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced9">Advanced9</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced10">Advanced10</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Advanced11">Advanced11</Dropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown
                                     id="nav-dropdown-dark-example"
                                     title="Puzzles"
                                     menuVariant="dark"
                                 >
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle1">Puzzle1</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle2">Puzzle2</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle3">Puzzle3</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle4">Puzzle4</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle5">Puzzle5</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle6">Puzzle6</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle7">Puzzle7</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle8">Puzzle8</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle9">Puzzle9</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle10">Puzzle10</Link>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item>
-                                        <Link to="/Puzzle11">Puzzle11</Link>
-                                    </Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle1">Puzzle1</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle2">Puzzle2</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle3">Puzzle3</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle4">Puzzle4</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle5">Puzzle5</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle6">Puzzle6</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle7">Puzzle7</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle8">Puzzle8</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle9">Puzzle9</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle10">Puzzle10</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/Puzzle11">Puzzle11</Dropdown.Item>
                                 </NavDropdown>
                                 {showLoggin()}
                             </Nav>
