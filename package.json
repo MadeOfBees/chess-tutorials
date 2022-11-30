@@ -1,6 +1,8 @@
 {
   "name": "chess-tutorial",
   "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
   "description": "A basic Chess tutorial",
   "main": "server/server.js",
   "scripts": {
