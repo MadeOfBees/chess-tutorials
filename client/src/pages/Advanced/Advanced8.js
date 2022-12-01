@@ -2,7 +2,7 @@ import React from "react";
 import Chessboard from "../../components/Chessboard";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Comments from "../../components/commentBox";
+// import Comments from "../../components/commentBox";
 
 const Puzzle = () => {
     return (
@@ -30,7 +30,7 @@ const Puzzle = () => {
                 </Col>
                 <Col xs={1} />
             </Row>
-            <Comments classname="noComment" />
+            {/* <Comments classname="noComment" /> */}
         </div>
     );
 };

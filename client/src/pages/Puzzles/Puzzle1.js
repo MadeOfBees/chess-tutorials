@@ -30,7 +30,7 @@ const Puzzle = () => {
                 </Col>
                 <Col xs={1} />
             </Row>
-            <Comments classname="noComment" />
+            {/* <Comments classname="noComment" /> */}
         </div>
     );
 };
