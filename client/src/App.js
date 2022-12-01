@@ -74,7 +74,7 @@ function App() {
       <Router>
         <main className="alex">
           <Navi />
-          <div>
+          <div className='main-content'>
             <Routes>
               <Route
                 path="/"

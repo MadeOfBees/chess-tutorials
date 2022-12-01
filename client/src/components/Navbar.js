@@ -11,10 +11,10 @@ function AppNav() {
     function showLoggin() {
         if (Auth.loggedIn()) {
             return (
-                <ul className="flex-row">
+                <ul className="flex-row list-unstyled mx-4">
                     <li className="mx-1">
                         {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-                        <a href="/" onClick={() => Auth.logout()}>
+                        <a className='btn btn-secondary' href="/" onClick={() => Auth.logout()}>
                             Logout
                         </a>
                     </li>
@@ -22,20 +22,19 @@ function AppNav() {
             );
         } else {
             return (
-                <ul className="flex-row">
+                <ul className="d-flex list-unstyled mx-4">
                     <li className="mx-1">
-                        <Link to="/signup">Signup</Link>
+                        <Link to="/signup" className='btn btn-secondary text-decoration-none text-white'>Signup</Link>
                     </li>
                     <li className="mx-1">
-                        <Link to="/login">Login</Link>
+                        <Link to="/login" className='btn btn-secondary text-decoration-none text-white'>Login</Link>
                     </li>
                 </ul>
             );
         }
     }
     return (
-        <header className="flex-row">
-            <nav>
+        <header className="d-flex justify-content-between align-items-center">
                 <Navbar variant="dark" bg="dark" expand="lg">
                     <Container fluid>
                         <Navbar.Brand as={Link} to="/">Home
@@ -94,12 +93,12 @@ function AppNav() {
                                     <Dropdown.Item as={Link} to="/Puzzle10">Puzzle10</Dropdown.Item>
                                     <Dropdown.Item as={Link} to="/Puzzle11">Puzzle11</Dropdown.Item>
                                 </NavDropdown>
-                                {showLoggin()}
+                               
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-            </nav>
+                {showLoggin()}
         </header>
     );
 }
