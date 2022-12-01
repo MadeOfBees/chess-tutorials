@@ -14,19 +14,29 @@ const commentBox = () => {
     const textRef = useRef(null);
     const containerRef = useRef(null);
 
+
+    //expands when refrencing the comments to display the whole box/form
     const onExpand = () => {
         if(!isExpanded) {
             outerHeight.current = containerRef.current.scrollHeight;
             setIsExpanded(true);
         }
     }
-
+    //will change comment value depending on the amount of comments
     const onChange = (e) =>{
         setCommentValue(e.target.value);
     }
-
-    
-    
+    //sets comment value to zero when the box is closed
+    const onClose = () => {
+        setCommentValue("");
+        setIsExpanded(false);
+    }
+    //stops from automatically clearing the data
+    const onSubmit = (e) => {
+        e.preventDefault();
+        console.log('sending form data somewhere I guess')
+    }
+    //add a form to the return
     return ();
 
 };
