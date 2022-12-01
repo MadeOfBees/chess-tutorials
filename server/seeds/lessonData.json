@@ -2,44 +2,44 @@
     {
         "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
          "lessonId": "1",
-         "lessontitle": "Basics1",
-         "lessondescription": "Please follow this first puzzle lesson"
+         "lessontitle": "Basic Board Setup",
+         "lessondescription": "This is how a chessboard is set up"
     },
         {
-        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "startingmoves": "rnbqkbnr/pppppppp/R7/8/8/8/1PPPPPPP/1NBQKBNR w KQkq - 0 1",
          "lessonId": "2",
-         "lessontitle": "Basics2",
-         "lessondescription": "Please follow this first puzzle lesson"
+         "lessontitle": "The Rook",
+         "lessondescription": "The Rook can move in a straight line as long as there's nothing in front of it."
     },
     {
-        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR w KQkq - 0 1",
          "lessonId": "3",
-         "lessontitle": "Basics3",
-         "lessondescription": "Please follow this first puzzle lesson"
+         "lessontitle": "The Knight",
+         "lessondescription": "The Knight moves in an L shape and can jump over other pieces."
     },
     {
-        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/5B2/3P4/PPP1PPPP/RN1QKBNR w KQkq - 0 1",
          "lessonId": "4",
-         "lessontitle": "Basics4",
-         "lessondescription": "Please follow this first puzzle lesson"
+         "lessontitle": "The Bishop",
+         "lessondescription": "The Bishop can move in a straight line as long as there's nothing in front of it."
     },
     { 
-        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 1",
          "lessonId": "5",
-         "lessontitle": "Basics5",
-         "lessondescription": "Please follow this first puzzle lesson"
+         "lessontitle": "The Pawn",
+         "lessondescription": "The Pawn can only move forward, and can only capture diagonally. On The Pawn's first turn, it can move two spaces but on subsiquent turns can only move one at a time. If you get the pawn to the end of the board it can become any piece you want it to become."
     },
     {
-        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPKPPP/RNBQ1BNR w KQkq - 0 1",
          "lessonId": "6",
-         "lessontitle": "Basics6",
-         "lessondescription": "Please follow this first puzzle lesson"
+         "lessontitle": "The King",
+         "lessondescription": "Like The Pawn, The King can only move 1 space at a time but can move and attack in any direction. When the king is killed the game is over and the player with a King still standing wins"
     },
     {
-        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "startingmoves": "rnbqkbnr/pppppppp/8/8/8/1QP5/PP1PPPPP/RNB1KBNR w KQkq - 0 1",
          "lessonId": "7",
-         "lessontitle": "Basics7",
-         "lessondescription": "Please follow this first puzzle lesson"
+         "lessontitle": "The Queen",
+         "lessondescription": "The Queen can do everything The Bishop and Rook can do, able to attack or move in any direction."
     },
     {
         "startingmoves": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
