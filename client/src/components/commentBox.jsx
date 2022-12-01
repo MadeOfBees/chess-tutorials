@@ -4,7 +4,7 @@ import "../commentStyles.css";
 
 const START_HEIGHT = 40
 
-const CommentBox = () => {
+const Comments = () => {
 
     const [isExpanded, setIsExpanded] = useState(false);
     const [commentValue, setCommentValue] = useState("");
@@ -84,4 +84,4 @@ const CommentBox = () => {
 
 };
 
-export default CommentBox;
+export { Comments }
