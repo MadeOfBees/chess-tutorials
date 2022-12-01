@@ -37,7 +37,31 @@ const commentBox = () => {
         console.log('sending form data somewhere I guess')
     }
     //add a form to the return
-    return ();
+    return (<form
+    onSubmit={onSubmit}
+    ref={containerRef}
+    className={cn("comment-box", {
+        expanded: isExpanded,
+        collapsed: !isExpanded,
+        modified: commentValue.length > 0
+    })}
+    style={{minHeight: isExpanded ? outerHeight: START_HEIGHT}}
+    >
+        <div className="commentHeader">
+            <div className="commentUser">
+                <img src="avatar/path" alt="User avatar"/>
+            </div>
+        </div>
+    <label htmlFor="comment">Add your comment/tip/frustration Here</label>
+    <textarea 
+    ref={textRef}
+    onClick={onExpand}
+    
+    
+    
+    />
+
+    </form>);
 
 };
 
