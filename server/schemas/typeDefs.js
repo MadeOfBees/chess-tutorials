@@ -30,6 +30,12 @@ const typeDefs = gql`
     createUser(username: String, email: String, password: String): User
     updateUser(username: String, email: String, password: String): User
   }
+
+  type Comment {
+    _id: ID
+    commentText: String
+    createdAt: String
+  }
 `;
 
 module.exports = typeDefs;

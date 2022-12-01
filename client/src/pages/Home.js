@@ -6,8 +6,6 @@ import Col from 'react-bootstrap/Col';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import Comment from '../components/commentBox';  
-
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.

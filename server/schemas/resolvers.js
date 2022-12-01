@@ -23,6 +23,19 @@ const resolvers = {
                 const user = await User.update(args);
                 return user;
             },
+            
+            addComment: async (parent, { thoughtId, commentText }) => {
+              return Thought.findOneAndUpdate(
+                { _id: thoughtId },
+                {
+                  $addToSet: { comments: { commentText } },
+                },
+                {
+                  new: true,
+                  runValidators: true,
+                }
+              );
+            }
     },
 };
 

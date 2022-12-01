@@ -1,3 +1,4 @@
 const User = require("./User");
-const Lessons = require("./Lessons")
-module.exports = {User, Lessons};
+const Lessons = require("./Lessons");
+const Comments = require("./Comments");
+module.exports = {User, Lessons, Comments};

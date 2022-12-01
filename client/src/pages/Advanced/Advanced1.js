@@ -2,7 +2,14 @@ import React from "react";
 import Chessboard from "../../components/Chessboard";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Comment from '../../components/commentBox.jsx';  
+
+
+import CommentForm from '../../components/commentBox.jsx';  
+import CommentList from '../../components/commentList.js';  
+
+// import { useParams } from 'react-router-dom';
+// import { useQuery } from '@apollo/client';
+
 const samplePosition = "rnbqkbnr/pppppppp/8/8/7/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
 
@@ -32,7 +39,15 @@ const Puzzle = () => {
                 </Col>
                 <Col xs={1} />
             </Row>
-            <Comment />
+
+            <div>
+            <CommentForm />
+            </div>
+
+            <div>
+            <CommentList />
+            </div>
+
         </div>
     );
 };
