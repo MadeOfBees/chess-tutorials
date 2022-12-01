@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { ADD_COMMENT } from
+// import { ADD_COMMENT } from "../utils/mutations"
 import cn from "classnames";
 import "../commentStyles.css";
 
@@ -39,18 +39,18 @@ const Comments = ({ bruh }) => {
     //stops from automatically clearing the data
     const onSubmit = async (event) => {
         event.preventDefault();
-        try {
-            const { data } = await addComment({
-              variables: { bruh, commentValue },
-            });
+        // try {
+        //     const { data } = await addComment({
+        //       variables: { bruh, commentValue },
+        //     });
       
-            setCommentValue('');
-          } catch (err) {
-            console.error(err);
-          }
-        };
+        //     setCommentValue('');
+        //   } catch (err) {
+        //     console.error(err);
+        //   }
+        // };
 
-
+    }
 
 
     //return the forma data and look by...
@@ -88,8 +88,8 @@ const Comments = ({ bruh }) => {
             />
 
             <div className="responseButtons">
-                <button type="button" className="nevermindButton" onClick={onClose}></button>
-                <button type="submit" disabled={commentValue.length < 1}></button>
+                <button type="button" className="nevermindButton" onClick={onClose}>Cancel</button>
+                <button type="submit" disabled={commentValue.length < 1}>Comment</button>
 
             </div>
 

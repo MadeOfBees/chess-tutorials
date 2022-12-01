@@ -69,6 +69,7 @@ const Home = () => {
           <div><div className="hipToBeRectangle">Item 17</div></div>
           <div><div className="hipToBeRectangle">Item 18</div></div>
         </Carousel>
+        <Comment />
       </div>
     </Container>
   );
