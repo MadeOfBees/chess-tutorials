@@ -1,29 +1,29 @@
-const {User, Lesson} = require('../models');
+const {User, Lessons} = require('../models');
 
 const resolvers = {
     Query: {
-        user: async () => {
-            return User.find({});
+        lessons: async () => {
+            return Lessons.find({});
         },
 
         lesson: async (parent,
-             {_id}) => {
-            const params = _id ? {_id} : {};
-            return Lesson.find(params);
+             {id}) => {
+                console.log(id);
+            return Lessons.findById({_id:id});
         },
     },
-    // Mutation: {
-    //     createUser: async (parent, args) => {
-    //         const user = await User.create(args);
-    //         return user;
-    //     },
+    Mutation: {
+        createUser: async (parent, args) => {
+            const user = await User.create(args);
+            return user;
+        },
 
         
-    //     updateUser: async (parent, args) => {
-    //             const user = await User.update(args);
-    //             return user;
-    //         },
-    // },
+        updateUser: async (parent, args) => {
+                const user = await User.update(args);
+                return user;
+            },
+    },
 };
 
 module.exports = resolvers;
