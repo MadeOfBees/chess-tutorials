@@ -52,13 +52,21 @@ const commentBox = () => {
                 <img src="avatar/path" alt="User avatar"/>
             </div>
         </div>
+
+
     <label htmlFor="comment">Add your comment/tip/frustration Here</label>
+
+
     <textarea 
     ref={textRef}
     onClick={onExpand}
-    
-    
-    
+    onFocus={onExpand}
+    onChange={onChange}
+    className="comment-field"
+    placeholder="Add a comment here"
+    value={commentValue}
+    name="comment"
+    id="comment"
     />
 
     </form>);
