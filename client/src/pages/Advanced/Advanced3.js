@@ -3,13 +3,16 @@ import Chessboard from "../../components/Chessboard";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Comment from '../../components/commentBox.jsx';
+const samplePosition = "rnbqkbnr/pppppppp/8/8/7/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+
+
 const Puzzle = () => {
     return (
         <div>
             <h1>Advanced Lesson 3:</h1>
             <Row>
                 <Col xs={1} />
-                <Col xs={4}><Chessboard /></Col>
+                <Col xs={4}><Chessboard samplePosition = {samplePosition} /></Col>
                 <Col xs={1} />
                 <Col xs={5}>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis

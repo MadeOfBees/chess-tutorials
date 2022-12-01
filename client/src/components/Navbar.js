@@ -38,7 +38,7 @@ function AppNav() {
             <nav>
                 <Navbar variant="dark" bg="dark" expand="lg">
                     <Container fluid>
-                        <Navbar.Brand>Home
+                        <Navbar.Brand as={Link} to="/">Home
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbar-dark-example" />
                         <Navbar.Collapse id="navbar-dark-example">
