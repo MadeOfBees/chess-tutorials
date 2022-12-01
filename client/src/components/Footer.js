@@ -6,17 +6,13 @@ function footer() {
     return (
         <footer className='neil'>
             <Row>
-                <Col><p>Made by team 5 for project 3</p></Col>
-                <Col>
-                    <Row>
-                    <Col><a href="https://github.com/Arjunk-g">Arjun's Github</a></Col>
-                        <Col><a href="https://github.com/FinallyExonerated">Jordan's Github</a></Col>
-                    </Row>
-                    <Row>
-                        <Col><a href="https://github.com/sensational11">Mack's Github</a></Col>
-                        <Col><a href="https://github.com/MadeOfBees">Bee's Github</a></Col>
-                    </Row>
-                </Col>
+                <Col><p className='text-center'>Made by team 5 for project 3</p></Col>
+                <Row>
+                    <Col><a className='text-white text-decoration-none' target="_blank" href="https://github.com/Arjunk-g">Arjun's Github</a></Col>
+                    <Col><a className='text-white text-decoration-none' target="_blank" href="https://github.com/FinallyExonerated">Jordan's Github</a></Col>
+                    <Col><a className='text-white text-decoration-none' target="_blank" href="https://github.com/sensational11">Mack's Github</a></Col>
+                    <Col><a className='text-white text-decoration-none' target="_blank" href="https://github.com/MadeOfBees">Bee's Github</a></Col>
+                </Row>
             </Row>
         </footer>
     );

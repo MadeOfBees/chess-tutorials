@@ -47,6 +47,7 @@ import Advanced9 from "./pages/Advanced/Advanced9";
 import Advanced10 from "./pages/Advanced/Advanced10";
 import Advanced11 from "./pages/Advanced/Advanced11";
 import "./App.css";
+import Chess from './pages/ChessPiece/Chess';
 
 
 const httpLink = createHttpLink({
@@ -220,6 +221,7 @@ function App() {
                 path="/Advanced11"
                 element={<Advanced11 />}
               />
+              <Route path="/chess/:name" element={<Chess/>} />
             </Routes>
           </div>
         </main>
