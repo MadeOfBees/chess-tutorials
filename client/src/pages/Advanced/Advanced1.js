@@ -4,8 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-import CommentForm from '../../components/commentBox.jsx';  
-import CommentList from '../../components/commentList.js';  
+import CommentForm from '../../components/commentBox.jsx';
+import CommentList from '../../components/commentList.js';
+
+// import { useQuery } from '@apollo/client';
+// import { QUERY_COMMENTS } from '../../utils/queries.js';
 
 // import { useParams } from 'react-router-dom';
 // import { useQuery } from '@apollo/client';
@@ -14,12 +17,16 @@ const samplePosition = "rnbqkbnr/pppppppp/8/8/7/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 
 
 const Puzzle = () => {
+
+    // const { loading, data } = useQuery(QUERY_COMMENTS);
+    // const commentData = data?.queryComments || {};
+
     return (
         <div>
             <h1>Advanced Lesson 1:</h1>
             <Row>
                 <Col xs={1} />
-                <Col xs={4}><Chessboard samplePosition = {samplePosition} /></Col>
+                <Col xs={4}><Chessboard samplePosition={samplePosition} /></Col>
                 <Col xs={1} />
                 <Col xs={5}>
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis
@@ -40,13 +47,39 @@ const Puzzle = () => {
                 <Col xs={1} />
             </Row>
 
-            <div>
-            <CommentForm />
-            </div>
 
-            <div>
-            <CommentList />
-            </div>
+
+
+
+
+
+{/* 
+            <div className="flex-row justify-center">
+                <div
+                    className="col-12 col-md-10 mb-3 p-3"
+                    style={{ border: '1px solid #1a1a1a' }}> */}
+                    <CommentForm />
+                {/* </div>
+                <div className="col-12 col-md-8 mb-3">
+                    {loading ? (
+                        <div>Loading Comments</div>
+                    ) : ( */}
+                        <CommentList
+                        // comments={commentData}
+                        //     title="Some Feed for Thought(s)..."
+                        />
+                    {/* )} */}
+                {/* </div> */}
+            {/* </div> */}
+
+
+
+
+
+
+
+
+
 
         </div>
     );

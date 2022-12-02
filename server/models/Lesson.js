@@ -18,5 +18,5 @@ const lessonSchema = new Schema ({
             },    
 });
 
-const Lessons = model('Lessons', lessonSchema);
-module.exports = Lessons;
+const Lesson = model('Lesson', lessonSchema);
+module.exports = Lesson;

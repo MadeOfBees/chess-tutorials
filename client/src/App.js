@@ -64,6 +64,7 @@ const authLink = setContext((_, { headers }) => {
 });
 
 const client = new ApolloClient({
+  uri: "http://localhost3001/graphql",
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
@@ -71,6 +72,7 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
+      {/* <App /> */}
       <Router>
         <main className="alex">
           <Navi />

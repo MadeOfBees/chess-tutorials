@@ -115,7 +115,7 @@ const CommentForm = () => {
 
     try {
       const { data } = await addComment({
-        variables: { commentText },
+        variables: { commentText }
       });
 
       setCommentText('');

@@ -23,18 +23,19 @@ const typeDefs = gql`
     user(username: String): User
     lessons: [Lessons]
     lesson(_id:ID!): Lessons
+    queryComment: [Comment]
   }
 
   type Mutation {
     login(email: String, password: String): User
     createUser(username: String, email: String, password: String): User
     updateUser(username: String, email: String, password: String): User
+    addComment(commentText: String!): Comment
   }
 
   type Comment {
     _id: ID
     commentText: String
-    createdAt: String
   }
 `;
 
