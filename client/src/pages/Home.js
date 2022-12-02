@@ -30,6 +30,7 @@ const responsive = {
 
 const Home = () => {
   return (
+    <div className='home-wrapper'>
     <Container>
       <main>
         <Row>
@@ -71,6 +72,7 @@ const Home = () => {
         </Carousel>
       </div>
     </Container>
+    </div>
   );
 };
 

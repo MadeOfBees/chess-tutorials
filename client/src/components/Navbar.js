@@ -93,6 +93,19 @@ function AppNav() {
                                     <Dropdown.Item as={Link} to="/Puzzle10">Puzzle10</Dropdown.Item>
                                     <Dropdown.Item as={Link} to="/Puzzle11">Puzzle11</Dropdown.Item>
                                 </NavDropdown>
+                                <NavDropdown
+                                    id="nav-dropdown-dark-example"
+                                    title="Chess Pieces"
+                                    menuVariant="dark"
+                                >
+                                    <Dropdown.Item as={Link} to="/chess/King">King</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/chess/Queen">Queen</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/chess/Rook">Rook</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/chess/Bishop">Bishop</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/chess/Knight">Knight</Dropdown.Item>
+                                    <Dropdown.Item as={Link} to="/chess/Pawn">Pawn</Dropdown.Item>
+                                   
+                                </NavDropdown>
                                
                             </Nav>
                         </Navbar.Collapse>
