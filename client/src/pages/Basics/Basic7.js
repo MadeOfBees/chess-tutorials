@@ -3,7 +3,7 @@ import Chessboard from "../../components/Chessboard";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Comment from '../../components/commentBox.jsx';
-const samplePosition = "rnbqkbnr/pppppppp/8/8/7/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+const samplePosition = "rnbqkbnr/pppppppp/8/8/8/1QP5/PP1PPPPP/RNB1KBNR w KQkq - 0 1";
 
 const Puzzle = () => {
     return (
