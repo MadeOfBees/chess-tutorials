@@ -2,6 +2,7 @@
 
 ## Description
 Our goal was to build a fun interactive chess app. The chess app functions as a tutorial that allows users to learn chess. We learned the intricacies of developing a full MERN stack app with the front end and back end. 
+![1](https://user-images.githubusercontent.com/9198297/205209501-8e7bb02a-9f5d-4290-a7b0-ffd0d9e7a80d.jpg)
 
 ## Table of Contents
 -[Installation](#installation)
@@ -13,7 +14,10 @@ Our goal was to build a fun interactive chess app. The chess app functions as a 
 ## Installation
 For installation you will just need to click the link provided https://chesstutorials.netlify.app/ .
 ## Usage
+![2](https://user-images.githubusercontent.com/9198297/205209510-9b4f5b83-dffd-46e9-9aef-510cff18e481.jpg)
 For usage you would open the Chess app and then run "npm i" to download the required packages to use our app. 
+![3](https://user-images.githubusercontent.com/9198297/205209514-4912bc0d-fdec-4aaf-8df4-24884e9f3f73.jpg)
+![4](https://user-images.githubusercontent.com/9198297/205209534-faf687c2-f4cc-4744-87ad-a905e64c0eb4.jpg)
 
 ## Credits
 Arjun Gupta , Ben Taylor, Jordan Smith, Mack Nelson
