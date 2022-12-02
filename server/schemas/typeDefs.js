@@ -9,7 +9,6 @@ const typeDefs = gql`
     lastactivity: String
     lessons: [Lessons]
   }
-
   type Lessons {
     _id: ID
     startingmoves: String
@@ -17,22 +16,20 @@ const typeDefs = gql`
     lessondescription: String
     lessonId: Int
   }
-
   type Query {
     users: [User]
     user(username: String): User
     lessons: [Lessons]
-    lesson(_id:ID!): Lessons
+    lesson(lessontitle:String): Lessons
     queryComment: [Comment]
   }
-
   type Mutation {
-    login(email: String, password: String): User
+    login(email: String!, password: String!): User 
     createUser(username: String, email: String, password: String): User
     updateUser(username: String, email: String, password: String): User
+    removeUser(username: String, email: String, password: String): User
     addComment(commentText: String!): Comment
   }
-
   type Comment {
     _id: ID
     commentText: String

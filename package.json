@@ -12,6 +12,7 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build",
     "DMC": "npm run seed && npm run build && netlify deploy --prod"
+
   },
   "keywords": [
     "Chess, Tutorial"
